@@ -6,6 +6,21 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+    signingConfigs{
+        debug {
+            storeFile file('/Users/jingyu.liu/workspace/AndroidLearning/keystore/debug-keystore.jks')
+            storePassword 'password'
+            keyAlias 'debug'
+            keyPassword 'password'
+        }
+        release {
+            storeFile file('/Users/jingyu.liu/workspace/AndroidLearning/keystore/release-keystore.jks')
+            storePassword 'password'
+            keyAlias 'release'
+            keyPassword 'password'
+        }
+    }
+
     defaultConfig {
         applicationId "com.thoughtworks.androidtrain"
         minSdkVersion 29
@@ -20,6 +35,15 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            jniDebuggable true
+            renderscriptDebuggable true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
