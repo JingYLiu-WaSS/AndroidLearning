@@ -48,3 +48,5 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+/keystore/*
