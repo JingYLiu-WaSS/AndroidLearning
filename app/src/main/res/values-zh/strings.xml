@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">安卓学习</string>
+    <string name="to">发送给</string>
+    <string name="subject">主题</string>
+    <string name="message">信息</string>
+    <string name="send">发送</string>
+    <string name="button_1">按钮 1</string>
+    <string name="button_2">按钮 2</string>
+    <string name="button_3">按钮 3</string>
+</resources>
