@@ -8,13 +8,13 @@ android {
 
     signingConfigs{
         debug {
-            storeFile file('src/assets/keystore/debug-keystore.jks')
+            storeFile file("${rootProject.projectDir}/keystore/debug-keystore.jks")
             storePassword 'password'
             keyAlias 'debug'
             keyPassword 'password'
         }
         release {
-            storeFile file('src/assets/keystore/release-keystore.jks')
+            storeFile file("${rootProject.projectDir}/keystore/release-keystore.jks")
             storePassword 'password'
             keyAlias 'release'
             keyPassword 'password'
