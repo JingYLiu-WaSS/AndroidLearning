@@ -4,7 +4,7 @@
     <string name="subject">subject</string>
     <string name="message">message</string>
     <string name="send">send</string>
-    <string name="button_1">Button 1</string>
+    <string name="button_1">constraint_layout</string>
     <string name="button_2">Button 2</string>
     <string name="button_3">Button 3</string>
     <string name="button_4">Button 4</string>
