@@ -1,4 +1,4 @@
-package com.thoughtworks.androidtrain;
+package com.thoughtworks.androidlearning;
 
 import org.junit.Test;
 
