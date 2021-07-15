@@ -5,7 +5,7 @@
     <string name="message">message</string>
     <string name="send">send</string>
     <string name="button_1">constraint_layout</string>
-    <string name="button_2">Button 2</string>
+    <string name="button_2">login</string>
     <string name="button_3">Button 3</string>
     <string name="button_4">Button 4</string>
     <string name="button_5">Button 5</string>
@@ -17,4 +17,11 @@
     <string name="signup">Signup</string>
     <string name="login">Login</string>
     <string name="hello">Hello!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_btn">Login</string>
+    <string name="or_connect_with">or connect with</string>
+    <string name="signup_btn">Sign Up with E-mail</string>
 </resources>

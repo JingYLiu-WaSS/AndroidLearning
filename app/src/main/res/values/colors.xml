@@ -8,4 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#FFA0A0A0</color>
+
+    <color name="username_password">#e4e4e4</color>
+    <color name="remember_me_forgot_password">#222222</color>
+    <color name="login_btn">#1f4ba5</color>
+    <color name="or_connect_with">#b2b2b2</color>
+    <color name="signup_with_email">#1f4ba5</color>
+    <color name="signup_btn">#1f4ba5</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>
